@@ -1,9 +1,10 @@
 {
-  "domain": "feedreader",
-  "name": "Feedreader",
+  "domain": "feedreader_tempfix",
+  "name": "Feedreader_tempfix",
   "documentation": "https://www.home-assistant.io/integrations/feedreader",
   "requirements": ["feedparser==6.0.10"],
   "codeowners": [],
   "iot_class": "cloud_polling",
-  "loggers": ["feedparser", "sgmllib3k"]
+  "loggers": ["feedparser", "sgmllib3k"],
+  "version": "0.0.1"
 }

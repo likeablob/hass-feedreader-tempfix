@@ -26,9 +26,9 @@ CONF_MAX_ENTRIES = "max_entries"
 DEFAULT_MAX_ENTRIES = 20
 DEFAULT_SCAN_INTERVAL = timedelta(hours=1)
 
-DOMAIN = "feedreader"
+DOMAIN = "feedreader_tempfix"
 
-EVENT_FEEDREADER = "feedreader"
+EVENT_FEEDREADER = "feedreader_tempfix"
 
 CONFIG_SCHEMA = vol.Schema(
     {
